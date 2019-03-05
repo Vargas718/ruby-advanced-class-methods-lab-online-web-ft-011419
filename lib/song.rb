@@ -47,13 +47,14 @@ class Song
   end
   
   def self.new_from_filename(filename)
-    binding.pry
+    
   data = []
   data << filename.split("-")
   artist_name = data[0]
   name = data[1]
   filename.chomp(".mp3")
   "#{artist_name} - #{name}.mp3"
+  binding.pry
    
     
   
