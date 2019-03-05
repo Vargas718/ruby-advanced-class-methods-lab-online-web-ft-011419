@@ -53,7 +53,7 @@ class Song
   name = data[1]
   
   filename.chomp(".mp3")
-  filename = "#{artist_name} - #{name.chomp(".mp3")}.mp3"
+  filename = "#{artist_name}-#{name.chomp(".mp3")}.mp3"
   #binding.pry
    
     
