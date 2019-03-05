@@ -54,7 +54,7 @@ class Song
   
   filename.chomp(".mp3")
   "#{artist_name}-#{name}.mp3"
-  #binding.pry
+  binding.pry
    
     
   
