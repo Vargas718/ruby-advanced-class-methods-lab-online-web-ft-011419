@@ -53,7 +53,7 @@ class Song
   data[0] = artist_name
   data[1] = name
   filename.chomp(".mp3")
-  "#{artist_name} - #{name}"
+  "#{artist_name} - #{name}.mp3"
    
     
   
