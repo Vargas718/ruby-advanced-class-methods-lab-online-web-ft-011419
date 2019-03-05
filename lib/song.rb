@@ -50,7 +50,6 @@ class Song
    # binding.pry
   data = []
   data << filename.split("-")
-  data
   artist_name = data[0]
   name = data[1]
   filename.chomp(".mp3")
