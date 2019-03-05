@@ -53,6 +53,7 @@ class Song
   name = data[1]
   song = Song.create_by_name(name)
   song.artist_name = artist
+  song
   
   
   
