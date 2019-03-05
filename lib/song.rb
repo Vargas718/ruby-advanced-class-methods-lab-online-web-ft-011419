@@ -51,8 +51,8 @@ class Song
   data = filename.chomp(".mp3").split("-")
   artist_name = data[0]
   name = data[1]
+  song = Song.create_by_name(name)
   
-  "#{artist_name}-#{name}.mp3"
   binding.pry
    
     
