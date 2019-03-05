@@ -51,8 +51,8 @@ class Song
   data = []
   data << filename.split("-")
   data
-  data[0] = artist_name
-  data[1] = name
+  artist_name = data[0]
+  name = data[1]
   filename.chomp(".mp3")
   "#{artist_name} - #{name}.mp3"
    
