@@ -48,7 +48,10 @@ class Song
   
   def self.new_from_filename(filename)
     binding.pry
-  filename.split("-")
+  data = []
+  data << filename.split("-")
+  data[0] = artist_name
+  data[1] = name
   filename.chomp(".mp3")
    
     
