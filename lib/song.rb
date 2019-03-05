@@ -56,7 +56,7 @@ class Song
   
   
   
-  binding.pry
+  #binding.pry
    
     
   
